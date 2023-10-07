@@ -44,8 +44,8 @@ internal class VersionCheck
     private static void ShowConnectionError_Postfix(FejdStartup __instance)
     {
         if (!__instance.m_connectionFailedPanel.activeSelf) return;
-        __instance.m_connectionFailedError.resizeTextMaxSize = 25;
-        __instance.m_connectionFailedError.resizeTextMinSize = 15;
+        // __instance.m_connectionFailedError.resizeTextMaxSize = 25;
+        // __instance.m_connectionFailedError.resizeTextMinSize = 15;
         __instance.m_connectionFailedError.text += $"\n{Plugin.ConnectionError}";
     }
 

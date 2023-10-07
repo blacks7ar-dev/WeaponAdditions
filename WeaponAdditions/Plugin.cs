@@ -18,8 +18,8 @@ namespace WeaponAdditions
         private const string modGUID = "blacks7ar.WeaponAdditions";
         public const string modName = "WeaponAdditions";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.0";
-        public const string modLink = "";
+        public const string modVersion = "1.0.2";
+        public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/WeaponAdditions/";
         private static string configFileName = modGUID + ".cfg";
         private static string configFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + configFileName;
         public static readonly ManualLogSource WALogger = BepInEx.Logging.Logger.CreateLogSource(modName);
@@ -29,11 +29,11 @@ namespace WeaponAdditions
         {
             DisplayName = modName,
             CurrentVersion = modVersion,
-            MinimumRequiredVersion = modVersion
+            MinimumRequiredVersion = modVersion,
+            ModRequired = true
         };
 
         private static ConfigEntry<Toggle> _serverConfigLocked;
-        public static string ConnectionError = "";
         public static Plugin _Instance;
         
         public ConfigEntry<T> config<T>(string group, string name, T value, ConfigDescription description,

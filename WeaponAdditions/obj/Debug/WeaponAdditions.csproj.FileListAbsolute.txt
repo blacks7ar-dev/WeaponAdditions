@@ -1,3 +1,6 @@
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\LocalizationManager.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ServerSync.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\WeaponAdditions.dll.config
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\WeaponAdditions.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\WeaponAdditions.pdb
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\0Harmony.dll
@@ -5,14 +8,16 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\assembly_gu
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\assembly_utils_publicized.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\assembly_valheim_publicized.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\BepInEx.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\Unity.TextMeshPro.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.AssetBundleModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.CoreModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.dll
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UI.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\Mono.Cecil.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\MonoMod.Utils.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\MonoMod.RuntimeDetour.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UI.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UIModule.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TextCoreModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.PhysicsModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.AnimationModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.InputLegacyModule.dll
@@ -24,6 +29,7 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UnityWebRequestModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.ScreenCaptureModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TextRenderingModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.DSPGraphModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UnityCurlModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TLSModule.dll
@@ -36,7 +42,6 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.PerformanceReportingModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.Physics2DModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.SharedInternalsModule.dll
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TextRenderingModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.ClusterInputModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.ClusterRendererModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.CrashReportingModule.dll
@@ -60,7 +65,6 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.SpriteMaskModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.StreamingModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.TextCoreModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.SpriteShapeModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.UIElementsNativeModule.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\UnityEngine.VehiclesModule.dll
@@ -76,6 +80,3 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAddit
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CopyComplete
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\LocalizationManager.dll
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ServerSync.dll
-D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\WeaponAdditions.dll.config
