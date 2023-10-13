@@ -50,6 +50,9 @@
         <Reference Include="BepInEx">
           <HintPath>..\..\..\..\Games\Valheim\BepInEx\core\BepInEx.dll</HintPath>
         </Reference>
+        <Reference Include="ItemManager">
+          <HintPath>ItemManager.dll</HintPath>
+        </Reference>
         <Reference Include="LocalizationManager">
           <HintPath>LocalizationManager.dll</HintPath>
         </Reference>
@@ -76,13 +79,8 @@
     <ItemGroup>
         <Compile Include="Functions\ConfigSetup.cs" />
         <Compile Include="Functions\PrefabsSetup.cs" />
-        <Compile Include="Functions\RegisterPrefabsToObjectDB.cs" />
-        <Compile Include="Functions\RegisterPrefabsToZNetScene.cs" />
-        <Compile Include="Functions\RegisterRecipesToObjectDB.cs" />
         <Compile Include="Functions\StatsSetup.cs" />
         <Compile Include="Patches\ItemDropPatch.cs" />
-        <Compile Include="Patches\ObjectDBPatch.cs" />
-        <Compile Include="Patches\ZNetScenePatch.cs" />
         <Compile Include="Plugin.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="Utils\ConfigurationManagerAttributes.cs" />
@@ -95,14 +93,15 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="ILRepack.targets" />
+      <Content Include="ItemManager.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
       <Content Include="LocalizationManager.dll">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
       <Content Include="ServerSync.dll">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <EmbeddedResource Include="translations\German.yml" />
-      <EmbeddedResource Include="translations\Spanish.yml" />
       <EmbeddedResource Include="translations\English.yml" />
     </ItemGroup>
     <ItemGroup>

@@ -80,3 +80,4 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAddit
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CopyComplete
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
+D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ItemManager.dll

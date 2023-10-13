@@ -12,7 +12,7 @@ public static class RegisterPrefabsToObjectDB
         _objectDB.AddClonedObject(PrefabsSetup._silverAxe);
         StatsSetup.SilverAxe(PrefabsSetup._silverAxe.GetComponent<ItemDrop>());
         _objectDB.AddClonedObject(PrefabsSetup._blackMetalSpear);
-        StatsSetup.Spear(PrefabsSetup._blackMetalSpear.GetComponent<ItemDrop>());
+        StatsSetup.BlackMetalSpear(PrefabsSetup._blackMetalSpear.GetComponent<ItemDrop>());
         _objectDB.AddClonedObject(PrefabsSetup._broadsword);
         StatsSetup.Broadsword(PrefabsSetup._broadsword.GetComponent<ItemDrop>());
         _objectDB.AddClonedObject(PrefabsSetup._claymore);
@@ -25,5 +25,26 @@ public static class RegisterPrefabsToObjectDB
         StatsSetup.Greatsword(PrefabsSetup._greatsword.GetComponent<ItemDrop>());
         _objectDB.AddClonedObject(PrefabsSetup._tulwar);
         StatsSetup.Tulwar(PrefabsSetup._tulwar.GetComponent<ItemDrop>());
+        _objectDB.AddClonedObject(PrefabsSetup._battleHammer);
+        _objectDB.AddClonedObject(PrefabsSetup._bronzeBattleAxe);
+        _objectDB.AddClonedObject(PrefabsSetup._bronzeHammer);
+        _objectDB.AddClonedObject(PrefabsSetup._bronzeMace);
+        _objectDB.AddClonedObject(PrefabsSetup._dagger);
+        _objectDB.AddClonedObject(PrefabsSetup._darkSword);
+        _objectDB.AddClonedObject(PrefabsSetup._draconicDagger);
+        _objectDB.AddClonedObject(PrefabsSetup._draconicGreatsword);
+        _objectDB.AddClonedObject(PrefabsSetup._draconicScythe);
+        _objectDB.AddClonedObject(PrefabsSetup._draconicSword);
+        _objectDB.AddClonedObject(PrefabsSetup._dragonBlade);
+        _objectDB.AddClonedObject(PrefabsSetup._elvenAxe);
+        _objectDB.AddClonedObject(PrefabsSetup._elvenHammer);
+        _objectDB.AddClonedObject(PrefabsSetup._elvenShield);
+        _objectDB.AddClonedObject(PrefabsSetup._elvenSpear);
+        _objectDB.AddClonedObject(PrefabsSetup._elvenSword);
+        _objectDB.AddClonedObject(PrefabsSetup._flameMetalGreatsword);
+        _objectDB.AddClonedObject(PrefabsSetup._flameMetalHammer);
+        _objectDB.AddClonedObject(PrefabsSetup._flameMetalSword);
+        _objectDB.AddClonedObject(PrefabsSetup._ironSpikedMace);
+        _objectDB.AddClonedObject(PrefabsSetup._poisonousSpikedMace);
     }
 }
