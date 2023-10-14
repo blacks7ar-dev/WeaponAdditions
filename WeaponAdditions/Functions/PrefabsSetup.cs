@@ -380,6 +380,7 @@ public static class PrefabsSetup
         item34.RequiredUpgradeItems.Add("Eitr", 11);
         item34.Configurable = Configurability.Recipe;
         StatsSetup.SeekerBow(item34.Prefab.GetComponent<ItemDrop>());
+        item34.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         Item item35 = new(_weaponBundle, "BWA_SilverAxe");
         item35.Crafting.Add(CraftingTable.Forge, 1);
         item35.RequiredItems.Add("Silver", 60);
