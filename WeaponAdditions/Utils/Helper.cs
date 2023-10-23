@@ -4,10 +4,10 @@ namespace WeaponAdditions.Utils;
 
 public static class Helper
 {
-    public static string Localize(string name)
-    {
-        return Localization.instance.Localize(name).Trim();
-    }
+    // public static string Localize(string name)
+    // {
+    //     return Localization.instance.Localize(name).Trim();
+    // }
     
     public static void ShaderSwap(GameObject gameObject)
     {
