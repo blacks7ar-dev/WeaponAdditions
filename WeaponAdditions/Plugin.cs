@@ -18,7 +18,7 @@ namespace WeaponAdditions
         private const string modGUID = "blacks7ar.WeaponAdditions";
         public const string modName = "WeaponAdditions";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.9";
+        public const string modVersion = "1.1.1";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/WeaponAdditions/";
         private static string configFileName = modGUID + ".cfg";
         private static string configFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + configFileName;
@@ -29,12 +29,10 @@ namespace WeaponAdditions
         {
             DisplayName = modName,
             CurrentVersion = modVersion,
-            MinimumRequiredVersion = modVersion,
-            ModRequired = true
+            MinimumRequiredVersion = modVersion
         };
 
         private static ConfigEntry<Toggle> _serverConfigLocked;
-        public static Plugin _Instance;
 
         private ConfigEntry<T> config<T>(string group, string name, T value, ConfigDescription description,
             bool synchronizedConfig = true)
@@ -77,7 +75,6 @@ namespace WeaponAdditions
         
         public void Awake()
         {
-            _Instance = this;
             Localizer.Load();
             _serverConfigLocked = config("1- ServerSync", "Lock Configuration", Toggle.On,
                 new ConfigDescription("If On, the configuration is locked and can be changed by server admins only."));
