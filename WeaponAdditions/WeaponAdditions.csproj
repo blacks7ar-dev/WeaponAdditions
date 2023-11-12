@@ -64,16 +64,16 @@
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
         <Reference Include="Unity.TextMeshPro">
-          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\Unity.TextMeshPro.dll</HintPath>
+          <HintPath>..\..\..\..\Games\Valheim\valheim_Data\Managed\Unity.TextMeshPro.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine">
-          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.dll</HintPath>
+          <HintPath>..\..\..\..\Games\Valheim\valheim_Data\Managed\UnityEngine.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.AssetBundleModule">
-          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.AssetBundleModule.dll</HintPath>
+          <HintPath>..\..\..\..\Games\Valheim\valheim_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
-          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.CoreModule.dll</HintPath>
+          <HintPath>..\..\..\..\Games\Valheim\valheim_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
