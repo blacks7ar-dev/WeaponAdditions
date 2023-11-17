@@ -193,16 +193,23 @@ public static class PrefabsSetup
         item17.RequiredUpgradeItems.Add("Mandible", 11);
         item17.Configurable = Configurability.Full;
         //StatsSetup.ElvenAxe(item17.Prefab.GetComponent<ItemDrop>());
-        Item item18 = new(_weaponBundle, "BWA_ElvenBow");
-        item18.Crafting.Add(CraftingTable.BlackForge, 1);
-        item18.RequiredItems.Add("Thunderstone", 10);
-        item18.RequiredItems.Add("Eitr", 52);
-        item18.RequiredItems.Add("Iron", 44);
-        item18.RequiredItems.Add("LinenThread", 28);
-        item18.RequiredUpgradeItems.Add("Eitr", 26);
-        item18.RequiredUpgradeItems.Add("Iron", 22);
-        item18.RequiredUpgradeItems.Add("LinenThread", 14);
-        item18.Configurable = Configurability.Full;
+        if (!Plugin._IsBowPluginInstalled)
+        {
+            Item item18 = new(_weaponBundle, "BWA_ElvenBow");
+            item18.Crafting.Add(CraftingTable.BlackForge, 1);
+            item18.RequiredItems.Add("Thunderstone", 10);
+            item18.RequiredItems.Add("Eitr", 52);
+            item18.RequiredItems.Add("Iron", 44);
+            item18.RequiredItems.Add("LinenThread", 28);
+            item18.RequiredUpgradeItems.Add("Eitr", 26);
+            item18.RequiredUpgradeItems.Add("Iron", 22);
+            item18.RequiredUpgradeItems.Add("LinenThread", 14);
+            item18.Configurable = Configurability.Full;   
+        }
+        else
+        {
+            Item item18 = new(_weaponBundle, "BWA_ElvenBow");
+        }
         //StatsSetup.ElvenBow(item18.Prefab.GetComponent<ItemDrop>());
         Item item19 = new(_weaponBundle, "BWA_ElvenHammer");
         item19.Crafting.Add(CraftingTable.BlackForge, 1);
@@ -369,18 +376,26 @@ public static class PrefabsSetup
         item33.Configurable = Configurability.Full;
         //StatsSetup.PoisonousSpikedMace(item33.Prefab.GetComponent<ItemDrop>());
         item33.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = poison;
-        Item item34 = new(_weaponBundle, "BWA_SeekerBow");
-        item34.Crafting.Add(CraftingTable.BlackForge, 1);
-        item34.RequiredItems.Add("TrophySeeker", 2);
-        item34.RequiredItems.Add("BlackMetal", 28);
-        item34.RequiredItems.Add("Mandible", 22);
-        item34.RequiredItems.Add("Eitr", 22);
-        item34.RequiredUpgradeItems.Add("BlackMetal", 14);
-        item34.RequiredUpgradeItems.Add("Mandible", 11);
-        item34.RequiredUpgradeItems.Add("Eitr", 11);
-        item34.Configurable = Configurability.Full;
-        //StatsSetup.SeekerBow(item34.Prefab.GetComponent<ItemDrop>());
-        item34.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
+        if (!Plugin._IsBowPluginInstalled)
+        {
+            Item item34 = new(_weaponBundle, "BWA_SeekerBow");
+            item34.Crafting.Add(CraftingTable.BlackForge, 1);
+            item34.RequiredItems.Add("TrophySeeker", 2);
+            item34.RequiredItems.Add("BlackMetal", 28);
+            item34.RequiredItems.Add("Mandible", 22);
+            item34.RequiredItems.Add("Eitr", 22);
+            item34.RequiredUpgradeItems.Add("BlackMetal", 14);
+            item34.RequiredUpgradeItems.Add("Mandible", 11);
+            item34.RequiredUpgradeItems.Add("Eitr", 11);
+            item34.Configurable = Configurability.Full;
+            //StatsSetup.SeekerBow(item34.Prefab.GetComponent<ItemDrop>());
+            item34.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
+        }
+        else
+        {
+            Item item34 = new(_weaponBundle, "BWA_SeekerBow");
+            item34.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
+        }
         Item item35 = new(_weaponBundle, "BWA_SilverAxe");
         item35.Crafting.Add(CraftingTable.Forge, 1);
         item35.RequiredItems.Add("Silver", 60);

@@ -1,13 +1,16 @@
-﻿using UnityEngine;
+﻿using BepInEx.Bootstrap;
+using UnityEngine;
 
 namespace WeaponAdditions.Utils;
 
 public static class Helper
 {
-    // public static string Localize(string name)
-    // {
-    //     return Localization.instance.Localize(name).Trim();
-    // }
+    public static bool CheckBowPlugin()
+    {
+        if (!Chainloader.PluginInfos.ContainsKey("blacks7ar.BowPlugin")) return false;
+        Logging.LogInfo("BowPlugin detected.. ElvenBow and SeekerBows recipe will now be disabled from WeaponAdditions.");
+        return true;
+    }
     
     public static void ShaderSwap(GameObject gameObject)
     {
