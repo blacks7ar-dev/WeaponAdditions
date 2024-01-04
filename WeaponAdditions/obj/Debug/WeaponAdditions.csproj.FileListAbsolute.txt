@@ -180,10 +180,6 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAddit
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CopyComplete
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
-E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.AssemblyReference.cache
-E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CoreCompileInputs.cache
-E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
-E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ItemManager.dll
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\LocalizationManager.dll
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ServerSync.dll
@@ -266,4 +262,8 @@ E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\0Harmony.xm
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\BepInEx.xml
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\MonoMod.Utils.xml
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\MonoMod.RuntimeDetour.xml
+E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.AssemblyReference.cache
+E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CoreCompileInputs.cache
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CopyComplete
+E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
+E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
