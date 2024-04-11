@@ -1,6 +1,5 @@
 ﻿using ItemManager;
 using UnityEngine;
-using WeaponAdditions.Utils;
 
 namespace WeaponAdditions.Functions;
 
@@ -23,7 +22,6 @@ public static class PrefabsSetup
         item.RequiredUpgradeItems.Add("Bronze", 6);
         item.RequiredUpgradeItems.Add("ElderBark", 4);
         item.Configurable = Configurability.Full;
-        //StatsSetup.BattleHammer(item.Prefab.GetComponent<ItemDrop>());
         Item item2 = new(_weaponBundle, "BWA_BlackMetalSpear");
         item2.Crafting.Add(CraftingTable.Forge, 1);
         item2.RequiredItems.Add("BlackMetal", 30);
@@ -34,7 +32,6 @@ public static class PrefabsSetup
         item2.RequiredUpgradeItems.Add("LinenThread", 5);
         item2.RequiredUpgradeItems.Add("Iron", 5);
         item2.Configurable = Configurability.Full;
-        //StatsSetup.BlackMetalSpear(item2.Prefab.GetComponent<ItemDrop>());
         Item item3 = new(_weaponBundle, "BWA_Broadsword");
         item3.Crafting.Add(CraftingTable.Forge, 1);
         item3.RequiredItems.Add("BlackMetal", 10);
@@ -45,7 +42,6 @@ public static class PrefabsSetup
         item3.RequiredUpgradeItems.Add("Iron", 15);
         item3.RequiredUpgradeItems.Add("YggdrasilWood", 5);
         item3.Configurable = Configurability.Full;
-        //StatsSetup.Broadsword(item3.Prefab.GetComponent<ItemDrop>());
         Item item4 = new(_weaponBundle, "BWA_BronzeBattleAxe");
         item4.Crafting.Add(CraftingTable.Forge, 1);
         item4.RequiredItems.Add("Bronze", 22);
@@ -54,7 +50,6 @@ public static class PrefabsSetup
         item4.RequiredUpgradeItems.Add("Bronze", 11);
         item4.RequiredUpgradeItems.Add("Copper", 3);
         item4.Configurable = Configurability.Full;
-        //StatsSetup.BronzeBattleAxe(item4.Prefab.GetComponent<ItemDrop>());
         Item item5 = new(_weaponBundle, "BWA_BronzeChainBuckler");
         item5.Crafting.Add(CraftingTable.Forge, 1);
         item5.RequiredItems.Add("Chain", 1);
@@ -65,7 +60,6 @@ public static class PrefabsSetup
         item5.RequiredUpgradeItems.Add("FineWood", 8);
         item5.RequiredUpgradeItems.Add("Tin", 5);
         item5.Configurable = Configurability.Full;
-        //StatsSetup.BronzeChainBuckler(item5.Prefab.GetComponent<ItemDrop>());
         Item item6 = new(_weaponBundle, "BWA_BronzeHammer");
         item6.Crafting.Add(CraftingTable.Forge, 1);
         item6.RequiredItems.Add("Bronze", 22);
@@ -74,7 +68,6 @@ public static class PrefabsSetup
         item6.RequiredUpgradeItems.Add("Bronze", 11);
         item6.RequiredUpgradeItems.Add("Copper", 3);
         item6.Configurable = Configurability.Full;
-        //StatsSetup.BronzeHammer(item6.Prefab.GetComponent<ItemDrop>());
         Item item7 = new(_weaponBundle, "BWA_BronzeMace");
         item7.Crafting.Add(CraftingTable.Forge, 1);
         item7.RequiredItems.Add("Bronze", 22);
@@ -83,7 +76,6 @@ public static class PrefabsSetup
         item7.RequiredUpgradeItems.Add("Bronze", 11);
         item7.RequiredUpgradeItems.Add("Copper", 3);
         item7.Configurable = Configurability.Full;
-        //StatsSetup.BronzeMace(item7.Prefab.GetComponent<ItemDrop>());
         Item item8 = new(_weaponBundle, "BWA_ChainBuckler");
         item8.Crafting.Add(CraftingTable.Forge, 1);
         item8.RequiredItems.Add("Chain", 1);
@@ -92,7 +84,6 @@ public static class PrefabsSetup
         item8.RequiredUpgradeItems.Add("Iron", 16);
         item8.RequiredUpgradeItems.Add("ElderBark", 11);
         item8.Configurable = Configurability.Full;
-        //StatsSetup.ChainBuckler(item8.Prefab.GetComponent<ItemDrop>());
         Item item9 = new(_weaponBundle, "BWA_Claymore");
         item9.Crafting.Add(CraftingTable.Forge, 1);
         item9.RequiredItems.Add("Silver", 40);
@@ -103,7 +94,6 @@ public static class PrefabsSetup
         item9.RequiredUpgradeItems.Add("Iron", 10);
         item9.RequiredUpgradeItems.Add("FineWood", 7);
         item9.Configurable = Configurability.Full;
-        //StatsSetup.Claymore(item9.Prefab.GetComponent<ItemDrop>());
         Item item10 = new(_weaponBundle, "BWA_Dagger");
         item10.Crafting.Add(CraftingTable.Forge, 1);
         item10.RequiredItems.Add("Iron", 18);
@@ -112,7 +102,6 @@ public static class PrefabsSetup
         item10.RequiredUpgradeItems.Add("Iron", 9);
         item10.RequiredUpgradeItems.Add("LeatherScraps", 6);
         item10.Configurable = Configurability.Full;
-        //StatsSetup.Dagger(item10.Prefab.GetComponent<ItemDrop>());
         Item item11 = new(_weaponBundle, "BWA_DarkSword");
         item11.Crafting.Add(CraftingTable.Forge, 1);
         item11.RequiredItems.Add("TrophySurtling", 1);
@@ -123,7 +112,6 @@ public static class PrefabsSetup
         item11.RequiredUpgradeItems.Add("Bronze", 3);
         item11.RequiredUpgradeItems.Add("ElderBark", 2);
         item11.Configurable = Configurability.Full;
-        //StatsSetup.DarkSword(item11.Prefab.GetComponent<ItemDrop>());
         item11.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         Item item12 = new(_weaponBundle, "BWA_DraconicDagger");
         item12.Crafting.Add(CraftingTable.Forge, 1);
@@ -135,7 +123,6 @@ public static class PrefabsSetup
         item12.RequiredUpgradeItems.Add("Crystal", 9);
         item12.RequiredUpgradeItems.Add("Silver", 16);
         item12.Configurable = Configurability.Full;
-        //StatsSetup.DraconicDagger(item12.Prefab.GetComponent<ItemDrop>());
         item12.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = frost;
         Item item13 = new(_weaponBundle, "BWA_DraconicGreatSword");
         item13.Crafting.Add(CraftingTable.Forge, 1);
@@ -147,7 +134,6 @@ public static class PrefabsSetup
         item13.RequiredUpgradeItems.Add("Silver", 20);
         item13.RequiredUpgradeItems.Add("Obsidian", 16);
         item13.Configurable = Configurability.Full;
-        //StatsSetup.DraconicGreatsword(item13.Prefab.GetComponent<ItemDrop>());
         item13.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = frost;
         Item item14 = new(_weaponBundle, "BWA_DraconicScythe");
         item14.Crafting.Add(CraftingTable.Forge, 1);
@@ -158,7 +144,6 @@ public static class PrefabsSetup
         item14.RequiredUpgradeItems.Add("Crystal", 18);
         item14.RequiredUpgradeItems.Add("Silver", 19);
         item14.Configurable = Configurability.Full;
-        //StatsSetup.DraconicScythe(item14.Prefab.GetComponent<ItemDrop>());
         item14.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = frost;
         Item item15 = new(_weaponBundle, "BWA_DraconicSword");
         item15.Crafting.Add(CraftingTable.Forge, 1);
@@ -169,7 +154,6 @@ public static class PrefabsSetup
         item15.RequiredUpgradeItems.Add("Silver", 21);
         item15.RequiredUpgradeItems.Add("Obsidian", 20);
         item15.Configurable = Configurability.Full;
-        //StatsSetup.DraconicSword(item15.Prefab.GetComponent<ItemDrop>());
         item15.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = frost;
         Item item16 = new(_weaponBundle, "BWA_DragonBlade");
         item16.Crafting.Add(CraftingTable.Forge, 1);
@@ -181,7 +165,6 @@ public static class PrefabsSetup
         item16.RequiredUpgradeItems.Add("Iron", 6);
         item16.RequiredUpgradeItems.Add("Tin", 4);
         item16.Configurable = Configurability.Full;
-        //StatsSetup.DragonBlade(item16.Prefab.GetComponent<ItemDrop>());
         Item item17 = new(_weaponBundle, "BWA_ElvenAxe");
         item17.Crafting.Add(CraftingTable.BlackForge, 1);
         item17.RequiredItems.Add("Thunderstone", 10);
@@ -192,7 +175,6 @@ public static class PrefabsSetup
         item17.RequiredUpgradeItems.Add("Iron", 22);
         item17.RequiredUpgradeItems.Add("Mandible", 11);
         item17.Configurable = Configurability.Full;
-        //StatsSetup.ElvenAxe(item17.Prefab.GetComponent<ItemDrop>());
         if (!Plugin._IsBowPluginInstalled)
         {
             Item item18 = new(_weaponBundle, "BWA_ElvenBow");
@@ -208,9 +190,9 @@ public static class PrefabsSetup
         }
         else
         {
-            Item item18 = new(_weaponBundle, "BWA_ElvenBow");
+            _ = new Item(_weaponBundle, "BWA_ElvenBow");
         }
-        //StatsSetup.ElvenBow(item18.Prefab.GetComponent<ItemDrop>());
+
         Item item19 = new(_weaponBundle, "BWA_ElvenHammer");
         item19.Crafting.Add(CraftingTable.BlackForge, 1);
         item19.RequiredItems.Add("Thunderstone", 10);
@@ -221,7 +203,6 @@ public static class PrefabsSetup
         item19.RequiredUpgradeItems.Add("Iron", 22);
         item19.RequiredUpgradeItems.Add("Mandible", 11);
         item19.Configurable = Configurability.Full;
-        //StatsSetup.ElvenHammer(item19.Prefab.GetComponent<ItemDrop>());
         Item item20 = new(_weaponBundle, "BWA_ElvenShield");
         item20.Crafting.Add(CraftingTable.BlackForge, 1);
         item20.RequiredItems.Add("Thunderstone", 10);
@@ -232,7 +213,6 @@ public static class PrefabsSetup
         item20.RequiredUpgradeItems.Add("Iron", 22);
         item20.RequiredUpgradeItems.Add("Carapace", 14);
         item20.Configurable = Configurability.Full;
-        //StatsSetup.ElvenShield(item20.Prefab.GetComponent<ItemDrop>());
         Item item21 = new(_weaponBundle, "BWA_ElvenSpear");
         item21.Crafting.Add(CraftingTable.BlackForge, 1);
         item21.RequiredItems.Add("Thunderstone", 10);
@@ -243,7 +223,6 @@ public static class PrefabsSetup
         item21.RequiredUpgradeItems.Add("Iron", 22);
         item21.RequiredUpgradeItems.Add("Mandible", 11);
         item21.Configurable = Configurability.Full;
-        //StatsSetup.ElvenSpear(item21.Prefab.GetComponent<ItemDrop>());
         Item item22 = new(_weaponBundle, "BWA_ElvenSword");
         item22.Crafting.Add(CraftingTable.BlackForge, 1);
         item22.RequiredItems.Add("Thunderstone", 10);
@@ -254,7 +233,6 @@ public static class PrefabsSetup
         item22.RequiredUpgradeItems.Add("Iron", 22);
         item22.RequiredUpgradeItems.Add("Mandible", 11);
         item22.Configurable = Configurability.Full;
-        //StatsSetup.ElvenSword(item22.Prefab.GetComponent<ItemDrop>());
         Item item23 = new(_weaponBundle, "BWA_FlametalGreatSword");
         item23.Crafting.Add(CraftingTable.BlackForge, 1);
         item23.RequiredItems.Add("TrophySurtling", 2);
@@ -265,7 +243,6 @@ public static class PrefabsSetup
         item23.RequiredUpgradeItems.Add("BlackMetal", 16);
         item23.RequiredUpgradeItems.Add("Eitr", 23);
         item23.Configurable = Configurability.Full;
-        //StatsSetup.FlametalGreatsword(item23.Prefab.GetComponent<ItemDrop>());
         item23.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         Item item24 = new(_weaponBundle, "BWA_FlametalHammer");
         item24.Crafting.Add(CraftingTable.BlackForge, 1);
@@ -277,7 +254,6 @@ public static class PrefabsSetup
         item24.RequiredUpgradeItems.Add("BlackMetal", 16);
         item24.RequiredUpgradeItems.Add("Eitr", 23);
         item24.Configurable = Configurability.Full;
-        //StatsSetup.FlametalHammer(item24.Prefab.GetComponent<ItemDrop>());
         item24.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         Item item25 = new(_weaponBundle, "BWA_FlametalSword");
         item25.Crafting.Add(CraftingTable.BlackForge, 1);
@@ -289,7 +265,6 @@ public static class PrefabsSetup
         item25.RequiredUpgradeItems.Add("BlackMetal", 16);
         item25.RequiredUpgradeItems.Add("Eitr", 23);
         item25.Configurable = Configurability.Full;
-        //StatsSetup.FlametalSword(item25.Prefab.GetComponent<ItemDrop>());
         item25.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         Item item26 = new(_weaponBundle, "BWA_GiantAxe");
         item26.Crafting.Add(CraftingTable.Forge, 1);
@@ -301,7 +276,6 @@ public static class PrefabsSetup
         item26.RequiredUpgradeItems.Add("LinenThread", 5);
         item26.RequiredUpgradeItems.Add("Iron", 10);
         item26.Configurable = Configurability.Full;
-        //StatsSetup.GiantAxe(item26.Prefab.GetComponent<ItemDrop>());
         Item item27 = new(_weaponBundle, "BWA_GiantMace");
         item27.Crafting.Add(CraftingTable.Forge, 1);
         item27.RequiredItems.Add("Bronze", 30);
@@ -312,7 +286,6 @@ public static class PrefabsSetup
         item27.RequiredUpgradeItems.Add("Copper", 3);
         item27.RequiredUpgradeItems.Add("Tin", 2);
         item27.Configurable = Configurability.Full;
-        //StatsSetup.GiantMace(item27.Prefab.GetComponent<ItemDrop>());
         Item item28 = new(_weaponBundle, "BWA_Greatsword");
         item28.Crafting.Add(CraftingTable.Forge, 1);
         item28.RequiredItems.Add("Iron", 50);
@@ -323,7 +296,6 @@ public static class PrefabsSetup
         item28.RequiredUpgradeItems.Add("Tin", 8);
         item28.RequiredUpgradeItems.Add("Chitin", 5);
         item28.Configurable = Configurability.Full;
-        //StatsSetup.Greatsword(item28.Prefab.GetComponent<ItemDrop>());
         Item item29 = new(_weaponBundle, "BWA_DragonBoneGreatsword");
         item29.Crafting.Add(CraftingTable.Forge, 1);
         item29.RequiredItems.Add("TrophyDragonQueen", 1);
@@ -334,7 +306,6 @@ public static class PrefabsSetup
         item29.RequiredUpgradeItems.Add("Iron", 12);
         item29.RequiredUpgradeItems.Add("WolfFang", 4);
         item29.Configurable = Configurability.Full;
-        //StatsSetup.DragonBoneGreatsword(item29.Prefab.GetComponent<ItemDrop>());
         Item item30 = new(_weaponBundle, "BWA_IronSpikedMace");
         item30.Crafting.Add(CraftingTable.Forge, 1);
         item30.RequiredItems.Add("Iron", 30);
@@ -343,7 +314,6 @@ public static class PrefabsSetup
         item30.RequiredUpgradeItems.Add("Iron", 15);
         item30.RequiredUpgradeItems.Add("ElderBark", 4);
         item30.Configurable = Configurability.Full;
-        //StatsSetup.IronSpikedMace(item30.Prefab.GetComponent<ItemDrop>());
         Item item31 = new(_weaponBundle, "BWA_ObsidianBuckler");
         item31.Crafting.Add(CraftingTable.Forge, 1);
         item31.RequiredItems.Add("Silver", 18);
@@ -353,7 +323,6 @@ public static class PrefabsSetup
         item31.RequiredUpgradeItems.Add("Iron", 6);
         item31.RequiredUpgradeItems.Add("Obsidian", 28);
         item31.Configurable = Configurability.Full;
-        //StatsSetup.ObsidianBuckler(item31.Prefab.GetComponent<ItemDrop>());
         Item item32 = new(_weaponBundle, "BWA_ObsidianGreatsword");
         item32.Crafting.Add(CraftingTable.Forge, 1);
         item32.RequiredItems.Add("Silver", 10);
@@ -363,7 +332,6 @@ public static class PrefabsSetup
         item32.RequiredUpgradeItems.Add("Iron", 16);
         item32.RequiredUpgradeItems.Add("Obsidian", 43);
         item32.Configurable = Configurability.Full;
-        //StatsSetup.ObsidianGreatsword(item32.Prefab.GetComponent<ItemDrop>());
         Item item33 = new(_weaponBundle, "BWA_PoisonousSpikedMace");
         item33.Crafting.Add(CraftingTable.Forge, 1);
         item33.RequiredItems.Add("Iron", 30);
@@ -374,7 +342,6 @@ public static class PrefabsSetup
         item33.RequiredUpgradeItems.Add("Guck", 17);
         item33.RequiredUpgradeItems.Add("ElderBark", 6);
         item33.Configurable = Configurability.Full;
-        //StatsSetup.PoisonousSpikedMace(item33.Prefab.GetComponent<ItemDrop>());
         item33.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = poison;
         if (!Plugin._IsBowPluginInstalled)
         {
@@ -388,7 +355,6 @@ public static class PrefabsSetup
             item34.RequiredUpgradeItems.Add("Mandible", 11);
             item34.RequiredUpgradeItems.Add("Eitr", 11);
             item34.Configurable = Configurability.Full;
-            //StatsSetup.SeekerBow(item34.Prefab.GetComponent<ItemDrop>());
             item34.Prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attackStatusEffect = burning;
         }
         else
@@ -406,7 +372,6 @@ public static class PrefabsSetup
         item35.RequiredUpgradeItems.Add("WolfClaw", 5);
         item35.RequiredUpgradeItems.Add("Iron", 5);
         item35.Configurable = Configurability.Full;
-        //StatsSetup.SilverAxe(item35.Prefab.GetComponent<ItemDrop>());
         Item item36 = new(_weaponBundle, "BWA_Tulwar");
         item36.Crafting.Add(CraftingTable.Forge, 1);
         item36.RequiredItems.Add("BlackMetal", 70);
@@ -474,7 +439,7 @@ public static class PrefabsSetup
         PrefabManager.RegisterPrefab(_weaponBundle, "bwa_fx_sledge_demolisher_hit");
         PrefabManager.RegisterPrefab(_weaponBundle, "bwa_fx_sledge_demolisher_hit1");
         var go = PrefabManager.RegisterPrefab(_weaponBundle, "bwa_fx_StaffShield_Hit");
-        Helper.ShaderSwap(go);
+        ShaderReplacer.Replace(go);
         PrefabManager.RegisterPrefab(_weaponBundle, "bwa_fx_swing_camshake");
         PrefabManager.RegisterPrefab(_weaponBundle, "bwa_sfx_arrow_hit");
         PrefabManager.RegisterPrefab(_weaponBundle, "bwa_sfx_atgeir_attack");

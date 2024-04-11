@@ -19,7 +19,7 @@ namespace WeaponAdditions
         private const string modGUID = "blacks7ar.WeaponAdditions";
         public const string modName = "WeaponAdditions";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.1.7";
+        public const string modVersion = "1.1.8";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/WeaponAdditions/";
         private static string configFileName = modGUID + ".cfg";
         private static string configFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + configFileName;
@@ -82,7 +82,6 @@ namespace WeaponAdditions
                 new ConfigDescription("If On, the configuration is locked and can be changed by server admins only."));
             _configSync.AddLockingConfigEntry(_serverConfigLocked);
             _IsBowPluginInstalled = Helper.CheckBowPlugin();
-            //ConfigSetup.Init();
             PrefabsSetup.Init();
             PrefabsSetup.Effects();
             var assembly = Assembly.GetExecutingAssembly();
