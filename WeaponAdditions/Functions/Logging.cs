@@ -1,24 +1,28 @@
+using BepInEx.Logging;
+
 namespace WeaponAdditions.Functions;
 
 public static class Logging
 {
+    private static readonly ManualLogSource WALogger = Logger.CreateLogSource(Plugin.modName);
+    
     public static void LogDebug(string debug)
     {
-        Plugin.WALogger.LogDebug(debug);
+        WALogger.LogDebug(debug);
     }
 
     public static void LogInfo(string info)
     {
-        Plugin.WALogger.LogInfo(info);
+        WALogger.LogInfo(info);
     }
 
     public static void LogWarning(string warning)
     {
-        Plugin.WALogger.LogWarning(warning);
+        WALogger.LogWarning(warning);
     }
 
     public static void LogError(string error)
     {
-        Plugin.WALogger.LogError(error);
+        WALogger.LogError(error);
     }
 }
