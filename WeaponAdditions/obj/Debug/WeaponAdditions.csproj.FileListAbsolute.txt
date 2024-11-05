@@ -180,7 +180,6 @@ D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAddit
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.csproj.CopyComplete
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.dll
 D:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\obj\Debug\WeaponAdditions.pdb
-E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ItemManager.dll
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\LocalizationManager.dll
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\ServerSync.dll
 E:\Modding Projects\Github\WeaponAdditions\WeaponAdditions\bin\Debug\WeaponAdditions.dll.config
