@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using BepInEx;
 using BepInEx.Configuration;
 using HarmonyLib;
@@ -17,7 +17,7 @@ namespace WeaponAdditions
         private const string modGUID = "blacks7ar.WeaponAdditions";
         public const string modName = "WeaponAdditions";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.2.2";
+        public const string modVersion = "1.2.3";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/WeaponAdditions/";
         private static readonly Harmony _harmony = new(modGUID);
 
